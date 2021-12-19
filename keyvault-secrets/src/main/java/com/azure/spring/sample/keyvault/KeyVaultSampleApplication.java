@@ -15,7 +15,7 @@ public class KeyVaultSampleApplication implements CommandLineRunner {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(KeyVaultSampleApplication.class);
 
-    @Value("${spring-data-source-url}")
+    @Value("${azure-keyvault-url}")
     private String springDataSourceUrl;
 
     public static void main(String[] args) {
